@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "VitePress"
   # text: "A VitePress Site"
-  tagline: 学无止境，记录笔记
+  tagline: 学无止境，快速记笔记
 
   # 按钮配置
   actions:
