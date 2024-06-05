@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "VitePress"
+  name: "管道工的世界"
   # text: "A VitePress Site"
   tagline: 学无止境，快速记笔记
 
