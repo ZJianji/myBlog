@@ -26,3 +26,5 @@ blockchainManage.zip
 *.sw?
 
 *dist
+
+package-lock.json
