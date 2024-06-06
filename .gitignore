@@ -24,3 +24,5 @@ blockchainManage.zip
 *.njsproj
 *.sln
 *.sw?
+
+*dist

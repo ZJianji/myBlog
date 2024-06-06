@@ -6,19 +6,21 @@ export default defineConfig({
   srcDir: './src',
   title: "破壁而出的马里奥",
   description: "A VitePress Site",
+
   head: [
-    // add jquert and fancybox
     ['script', { src: 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js' }],
     ['script', { src: 'https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.2/jquery.fancybox.min.js' }],
     ['link', { rel: 'stylesheet', type: 'text/css', href: 'https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.2/jquery.fancybox.min.css' }]
   ],
+
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    /* 右边导航 */
     nav: [
       { text: 'Home', link: '/' },
-      // { text: 'Examples', link: '/markdown-examples' }
     ],
 
+    /* 侧边栏 */
     sidebar: {
        // 当用户位于 `guide` 目录时，会显示此侧边栏
        '/guide/': [
@@ -26,17 +28,25 @@ export default defineConfig({
           text: '文章',
           items: [
             { text: '从0-1部署web项目（华为云）', link: '/guide/' },
-            // { text: 'One', link: '/guide/one' },
-            // { text: 'Two', link: '/guide/two' }
           ]
         }
       ],
+    },
+
+    search: {
+      provider: 'local'
     }
 
+    /* 社交链接 */
     // socialLinks: [
     //   { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     // ]
   },
+
+  /* 设置最后更新时间 */
+  lastUpdated: true,
+
+  /* 设置图片预览 */
   markdown:{
     config: (md) => {
         // use more markdown-it plugins!
@@ -44,5 +54,5 @@ export default defineConfig({
             'data-fancybox': "gallery"
         })
         }
-    }
+   },
 })
