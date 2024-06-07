@@ -1,4 +1,4 @@
-# 从0-1部署web项目（华为云）
+# 从0-1部署web项目（华为云）:100:
 
 ## 服务器的选择
 
@@ -150,3 +150,4 @@ sudo ufw allow 'Nginx Full'
 1、上传文件到 /var/www/mywebsite
 
 2、使用 Xftp 工具进行上传
+

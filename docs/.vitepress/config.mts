@@ -28,6 +28,7 @@ export default defineConfig({
           text: '文章',
           items: [
             { text: '从0-1部署web项目（华为云）', link: '/guide/' },
+            { text: 'jenkins自动化部署web项目', link: '/guide/jenkins' },
           ]
         }
       ],
