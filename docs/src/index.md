@@ -12,9 +12,9 @@ hero:
     - theme: brand
       text: 进入
       link: /guide/index
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+    # - theme: alt
+    #   text: API Examples
+    #   link: /api-examples
 
 # 卡片配置
 # features:
