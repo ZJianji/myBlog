@@ -11,21 +11,21 @@ hero:
   actions:
     - theme: brand
       text: 进入
-      link: /guide/index
+      link: /arrange/serve/index
     # - theme: alt
     #   text: API Examples
     #   link: /api-examples
 
 # 卡片配置
-# features:
-#   - title: 前端
-#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-#     link: /api-examples
-#   - title: Feature B
-#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-#     link: /api-examples
-#   - title: Feature C
-#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-#     link: /api-examples
-# ---
+features:
+  - title: 网站部署
+    details: 从0-1发布网站&自动部署
+    link: /arrange/serve/index
+  - title: 记录笔记
+    details: 记录日常遇到的问题
+    link: /record/problem1/
+  # - title: Feature C
+  #   details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  #   link: /api-examples
+---
 

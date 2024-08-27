@@ -7,29 +7,38 @@
 wget https://pkg.jenkins.io/debian-stable/binary/jenkins_2.387.3_all.deb
 ```
 
-***2、安装jenkins包***
+***2、安装Java***
+```md
+sudo apt update
+sudo apt install openjdk-11-jdk
+JAVA_HOME="/usr/lib/jvm/java-11-openjdk-amd64"
+systemctl daemon-reload
+```
+
+***3、安装jenkins包***
 ```md
 sudo dpkg -i jenkins_2.387.3_all.deb
 ```
 
-***3、安装过程中可能会缺少依赖项，使用以下命令安装所需依赖项***
+***4、安装过程中可能会缺少依赖项，使用以下命令安装所需依赖项***
 ```md
 sudo apt-get install -f
 ```
 
-***4、启动 Jenkins***
+***5、启动 Jenkins***
 
 ```md
 sudo systemctl start jenkins
 ```
 
-***5、访问 Jenkins***
+
+***6、访问 Jenkins***
 
 ::: tip
 打开浏览器并访问 http://your_server_ip:8080，按照提示完成初始设置。
 :::
 
-***5、安装插件***
+***7、安装插件***
 
 ::: tip
 - NodeJS
@@ -99,6 +108,8 @@ cat ~/.ssh/id_rsa.pub
 > 添加凭据
 
 ![alt text](image-15.png)
+
+![alt text](image-22.png)
 
 ![alt text](image-16.png)
 

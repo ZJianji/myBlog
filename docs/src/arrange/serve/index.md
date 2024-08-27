@@ -106,7 +106,7 @@ sudo nano /etc/nginx/sites-available/mywebsite
 ```md
 server {
     listen 80;
-    server_name your_domain_or_ip;
+    server_name 访问ip;
 
     root /var/www/mywebsite;
     index index.html index.htm index.php;
@@ -151,3 +151,4 @@ sudo ufw allow 'Nginx Full'
 
 2、使用 Xftp 工具进行上传
 
+3、重启Nginx服务

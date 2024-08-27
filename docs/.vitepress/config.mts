@@ -23,12 +23,20 @@ export default defineConfig({
     /* 侧边栏 */
     sidebar: {
        // 当用户位于 `guide` 目录时，会显示此侧边栏
-       '/guide/': [
+       '/arrange/': [
         {
-          text: '文章',
+          text: '网站部署',
           items: [
-            { text: '从0-1部署web项目（华为云）', link: '/guide/' },
-            { text: 'jenkins自动化部署web项目', link: '/guide/jenkins/' },
+            { text: '从0-1部署web项目（华为云）', link: '/arrange/serve/' },
+            { text: 'jenkins自动化部署web项目', link: '/arrange/jenkins/' },
+          ]
+        }
+      ],
+       '/record/': [
+        {
+          text: '记录',
+          items: [
+            { text: 'vue3项目“@”路径别名引入函数或组件，ctril + 鼠标点击跳转不生效', link: '/record/problem1/' },
           ]
         }
       ],
